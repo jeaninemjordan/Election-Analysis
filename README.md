@@ -1,11 +1,11 @@
 # Election-Analysis
-##
+##An audit of Colorado electoral data utilzing Python.
 
 Below is a screenshot of the text document produced when the election audit script in the PyPoll_Challenge.py code is ran. All data listed above is visible in an easy to read, easy to understand list for the viewer. 
 
 INSERT SCREENSHOT OF TXT FILE RESULTS HERE
 
-The data is stored within a CSV file listing the Ballot ID, County and Candidate Voted For in columns. The script reads and analyzes this dataset, outputting the desired information into a text file for optimal viewing. The script defines the candidate names as a list, creates a dictionary where the candidates’ names are stored as keys, and reports the number of votes as values. This same coding is used to report the county voter turnout data as well.  
+The dataset this audit utilizes is stored within a CSV file listing the Ballot ID, County and Candidate Voted For in columns (The election_results.csv file located within the Resources folder). The Python script written reads and analyzes this dataset, outputting the desired information into a text file for optimal viewing. The script defines the candidate names as a list, creates a dictionary where the candidates’ names are stored as keys, and reports the number of votes as values. This same coding is used to report the county voter turnout data as well.  
 
 
 When the election audit was expanded to include the voter turnout by county, the viewer was given a better understanding of the poll to conduct further analysis with. This data could be useful in many ways to help forecast, study demographics, as well as plan future campaigns and elections. 
