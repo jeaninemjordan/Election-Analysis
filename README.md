@@ -1,5 +1,5 @@
 # Election-Analysis
-##An audit of Colorado electoral data utilzing Python.
+## An audit of Colorado electoral data utilzing Python.
 
 Below is a screenshot of the text document produced when the election audit script in the PyPoll_Challenge.py code is ran. All data listed above is visible in an easy to read, easy to understand list for the viewer. 
 
