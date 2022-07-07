@@ -20,9 +20,10 @@ now = dt.datetime.now()
 
 print("The time right now is ", now)
 
-# Add dependencies
+# Add our dependencies
 
 import csv
+
 import os
 
 # Assign a variable to load a file from a path.
@@ -59,7 +60,7 @@ with open(file_to_load) as election_data:
 
     file_reader = csv.reader(election_data)
 
-    # Print the header row.
+    # Read the header row.
 
     headers = next(file_reader)
 
@@ -78,7 +79,7 @@ with open(file_to_load) as election_data:
     
         if candidate_name not in candidate_options:
 
-            # Add it to the list of candidates.
+            # Add the candidate name not in candidate options:
 
             candidate_options.append(candidate_name)
 
@@ -86,7 +87,7 @@ with open(file_to_load) as election_data:
 
             candidate_votes[candidate_name] = 0
 
-        # Add a vote to that candidate's count.
+        # Add a vote to that candidate's count. 
 
         candidate_votes[candidate_name] += 1
 
@@ -121,7 +122,7 @@ with open(file_to_save, "w") as txt_file:
 
         vote_percentage = float(votes) / float(total_votes) * 100
 
-        # Print each candidate, their voter count, and percentage to the terminal.
+        # Print out each candidate's name, vote count and percentage of votes to the terminal.
 
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
@@ -136,13 +137,16 @@ with open(file_to_save, "w") as txt_file:
 
         # Determine winning vote count and candidate.
 
-        # Determine if the votes is greater than the winning count.
+        # Determine if the votes are greater than the winning count.
 
         if (votes > winning_count) and (vote_percentage > winning_percentage):
 
-            # If true then set winning_count = votes and winning_percent = vote_percentage.
+            # If true then set winning_count = votes and winning_percent =.
+
+            # vote_percentage
 
             winning_count = votes
+
             winning_percentage = vote_percentage
             
             # And, set the winning_candidate equal to the candidate's name.
