@@ -39,7 +39,7 @@ The candidates of the election are as follows:
 
 Below is a screenshot of the text document produced when the election audit script in the PyPoll_Challenge.py code is ran. All data listed above is visible in an easy to read, easy to understand list for the viewer. 
 
-!(Resources/election_analysis.txt_Results_ScreenShot.png)
+![](Resources/election_analysis.txt_Results_ScreenShot.png)
 
 **Final Summary**
 
