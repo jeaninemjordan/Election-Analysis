@@ -17,12 +17,12 @@ A Colorado Board of Elections employee requires the following tasks to be comple
 
 Using Python and Visual Studio Code, a script was written to analyze the dataset provided by the client and produce an analysis of the election audit. 
 
-### Resources 
+**Resources 
 
 * Data Source: election_results.csv
 * Python 3.10.5, Visual Studio Code, 1.68.1
 
-## Analysis Summary
+**Analysis Summary
 
 The final analysis of the election produced the following results:
 
@@ -41,7 +41,7 @@ Below is a screenshot of the text document produced when the election audit scri
 
 INSERT SCREENSHOT OF TXT FILE RESULTS HERE
 
-## Final Summary
+**Final Summary
 
 The dataset this audit utilizes is stored within a CSV file listing the Ballot ID, County and Candidate Voted For in columns (The election_results.csv file located within the Resources folder). The Python script written reads and analyzes this dataset, outputting the desired information into a text file for optimal viewing. The script defines the candidate names as a list, creates a dictionary where the candidates’ names are stored as keys, and reports the number of votes as values. This same coding is used to report the county voter turnout data as well.  
 
