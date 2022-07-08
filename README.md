@@ -9,7 +9,7 @@ A Colorado Board of Elections employee requires the following tasks to be comple
 * Calculate the total number of votes cast. 
 * Obtain a complete list of candidates who received votes.
 * Calculate the total number of votes each candidate received. 
-* Calculate the percentage of cotes each candidate won. 
+* Calculate the percentage of votes each candidate won. 
 * Determine the winner of the election based on popular vote. 
 * The voter turnout for each county
 * The percentage of votes from each county out of the total count
