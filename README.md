@@ -22,7 +22,7 @@ Using Python and Visual Studio Code, a script was written to analyze the dataset
 * Data Source: election_results.csv
 * Python 3.10.5, Visual Studio Code, 1.68.1
 
-**Analysis Summary**
+**Analysis Results**
 
 The final analysis of the election produced the following results:
 
