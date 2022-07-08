@@ -33,7 +33,7 @@ The final analysis of the election produced the following results:
 * Arapahoe county came in last place, making up only 6.7% of the ballot and totalling 24,801 votes.
 
 The candidates of the election are as follows:
-* Raymon Anthony Doane, only receiving 3.1% of the ballot and toalling 11,606 votes.
+* Raymon Anthony Doane, only receiving 3.1% of the ballot and totalling 11,606 votes.
 * Charles Casper Stockham, coming in second place, receiving 23.0% of the ballot and totalling 85,213 votes.
 * Diana DeGette, the winner of this election, receiving 73.8% of the ballot and totalling 272,892 votes.
 
